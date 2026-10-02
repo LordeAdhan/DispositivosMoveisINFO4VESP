@@ -1,8 +1,8 @@
 import React from "react";
 
 export default function Base() {
-    const [num1, setNum1] = React.useState(0);
-    const [num2, setNum2] = React.useState(0);
+    const [num1, setNum1] = React.useState();
+    const [num2, setNum2] = React.useState();
     const [result, setResult] = React.useState(0);
     
     function soma(){
